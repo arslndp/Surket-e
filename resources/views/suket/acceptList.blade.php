@@ -54,6 +54,7 @@
                                         <th>Status Surat</th>
                                         <th>Tanggal Pengajuan</th>
                                         <th>Pesan</th>
+                                        <th>Tiket</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -66,6 +67,7 @@
                                         <td><span class="label label-success">{{$data->status}}</span></td>
                                         <td>{{$data->dibuat}}</td>
                                         <td> - </td>
+                                        <td><a href="/suket/tiket/{{$data->id_surket}}" class="btn btn-block btn-primary">Ambil tiket</a></td>
                                     </tr>
                                     @endforeach
                                 </tbody>

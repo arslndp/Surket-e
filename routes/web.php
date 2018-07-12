@@ -41,8 +41,6 @@ Route::get('/suket/accept','page\suket@diSetujui');
 Route::get('/logOutKtp', 'rakyat\publicController@logOutKtp')->name('out');
 Route::get('/info/list', 'page\info@list');
 Route::get('/info/view/{data}','page\info@view');
-
-
-
 Route::post('/prossesktp','page\suket@ktp');
 Route::get('/persetujuan','admin\persetujuan@list');
+Route::get('/suket/tiket/{data}', 'page\suket@getTiket');

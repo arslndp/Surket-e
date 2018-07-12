@@ -84,4 +84,10 @@ class suket extends Controller
         $data = surket::where('nik',Session::get('nik'))->where('status','setuju')->get();
         return view('suket.acceptList')->with('data',$data);   
     }
+
+    public function getTiket($data)
+    {
+        $x = surket::where('id_surket',$data)->first();
+        return view('suket.tiket')->with('data',$x);
+    }
 }

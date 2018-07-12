@@ -38,7 +38,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Nama Lengkap" name="nama" />
+                                            <input type="text" class="form-control" placeholder="Nama Lengkap" name="nama" required="required" />
                                         </div>
                                     </div>
                      
@@ -53,12 +53,12 @@
                                   
                                   <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Agama" name="agama" />
+                                            <input type="text" class="form-control" placeholder="Agama" name="agama" required="required"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Pekerjaan" name="job" />
+                                            <input type="text" class="form-control" placeholder="Pekerjaan" name="job" required="required"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -77,9 +77,9 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="form-line">
-                                           <input type="number" placeholder="Tangggal" name="tgl"> 
-                                           <input type="number" placeholder="Bulan" name="bln"> 
-                                           <input type="number" placeholder="Lahir" name="thn"> 
+                                           <input type="number" placeholder="Tangggal" name="tgl" required="required"> 
+                                           <input type="number" placeholder="Bulan" name="bln" required="required"> 
+                                           <input type="number" placeholder="Lahir" name="thn" required="required"> 
                                         </div>
                                     </div>
                                 <div class="form-group form-float">
@@ -96,7 +96,7 @@
                       <input class="file-path validate" type="text" />
                       <div class="btn">
                         <span>File</span>
-                        <input type="file" name="kk" />
+                        <input type="file" name="kk" required="required"/>
                       </div>
                     </div>
                             </div>
